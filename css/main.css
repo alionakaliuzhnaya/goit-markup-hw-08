@@ -706,6 +706,13 @@ body {
   text-transform: uppercase;
   margin-top: 0px;
   margin-bottom: 10px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .advantages__name {
+    text-align: left;
+  }
 }
 
 .advantages__description {
