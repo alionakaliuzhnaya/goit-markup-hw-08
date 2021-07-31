@@ -827,10 +827,6 @@ body {
   justify-content: space-between;
 }
 
-.team-img {
-  width: 100%;
-}
-
 .clients-list {
   display: flex;
   flex-wrap: wrap;
