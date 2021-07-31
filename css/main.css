@@ -596,6 +596,12 @@ body {
   }
 }
 
+@media screen and (max-width: 1200px) {
+  .activity {
+    display: none;
+  }
+}
+
 .sub-img {
   display: flex;
   flex-wrap: wrap;
