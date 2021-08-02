@@ -107,7 +107,6 @@
   }
 }
 .modal-form-checkbox-label {
-  display: flex;
   align-items: center;
   font-family: var(--main-font);
   font-weight: normal;
@@ -119,7 +118,7 @@
 
   &::before {
     content: '';
-    display: block;
+    display: inline-block;
     width: 16px;
     height: 15px;
     border: 1px solid var(--text-color);
@@ -138,8 +137,16 @@
     border: 1px solid var(--accent-color);
   }
 }
+
+@media screen and (min-width: 768px) {
+  .modal-form-checkbox-label {
+    display: flex;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .modal-form-checkbox-label {
+    display: flex;
     font-size: 14px;
     line-height: 1.71;
   }
