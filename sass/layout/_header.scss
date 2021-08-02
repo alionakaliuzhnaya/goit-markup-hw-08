@@ -11,6 +11,8 @@
 .list {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  margin-right: 0;
 }
 
 .menu__item {
@@ -82,8 +84,3 @@
     fill: var(--accent-color);
   }
 }
-
-
-
-
-
