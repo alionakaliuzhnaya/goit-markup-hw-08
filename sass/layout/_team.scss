@@ -78,9 +78,15 @@
 }
 .social-item {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
+@media screen and (max-width: 768px) {
+  .team-img {
+    display: block;
+    width: 354px;
+  }
+}
 @media screen and (max-width: 480px) {
   .team-img {
     display: block;
