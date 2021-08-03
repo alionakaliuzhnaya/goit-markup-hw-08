@@ -1182,6 +1182,10 @@ body {
   justify-content: center;
 }
 
+.social-links:not(:last-child) {
+  margin-right: 10px;
+}
+
 .clients-list {
   display: flex;
   flex-wrap: wrap;
@@ -1405,10 +1409,6 @@ body {
 .portfolio__links:hover .portfolio__overlay,
 .portfolio__links:focus .portfolio__overlay {
   transform: translateY(0%);
-}
-
-.img-portfolio {
-  max-width: 100%;
 }
 
 @media screen and (min-width: 768px) {
