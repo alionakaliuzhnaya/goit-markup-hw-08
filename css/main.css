@@ -566,7 +566,7 @@ body {
 @media screen and (min-width: 768px) {
   .menu-contacts {
     display: block;
-    margin-left: 84px;
+    margin-left: auto;
   }
 }
 
