@@ -451,6 +451,7 @@ body {
 @media screen and (min-width: 1200px) {
   .footer-form {
     padding-top: 60px;
+    text-align: left;
   }
 }
 
@@ -1298,6 +1299,12 @@ body {
 @media screen and (min-width: 768px) {
   .footer-social-links {
     padding-top: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-social-links {
+    text-align: left;
   }
 }
 
