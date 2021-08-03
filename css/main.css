@@ -1402,6 +1402,10 @@ body {
   transform: translateY(0%);
 }
 
+.img-portfolio {
+  max-width: 100%;
+}
+
 @media screen and (min-width: 768px) {
   .portfolio {
     display: flex;
