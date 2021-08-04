@@ -715,7 +715,7 @@ body {
   margin-bottom: 64px;
 }
 
-@media screen and (min-width: 440px) {
+@media screen and (min-width: 220px) {
   .nav-list {
     margin-bottom: 96px;
   }
@@ -761,22 +761,10 @@ body {
 .modal-contact__tel-link {
   text-decoration: none;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 34px;
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--accent-color);
-}
-
-@media screen and (min-width: 320px) {
-  .modal-contact__tel-link {
-    font-size: 26px;
-  }
-}
-
-@media screen and (min-width: 440px) {
-  .modal-contact__tel-link {
-    font-size: 34px;
-  }
 }
 
 .modal-contact__email-item {
@@ -787,42 +775,22 @@ body {
   text-decoration: none;
   color: var(--text-color);
   font-weight: 500;
-  font-size: 18px;
+  font-size: 24px;
   line-height: 1.18;
   letter-spacing: 0.02em;
   margin-bottom: 32px;
 }
 
-@media screen and (min-width: 320px) {
-  .modal-contact__email-link {
-    font-size: 20px;
-  }
-}
-
-@media screen and (min-width: 440px) {
-  .modal-contact__email-link {
-    font-size: 24px;
-  }
-}
-
-.modal-social {
-  display: flex;
-  position: relative;
-}
-
-@media screen and (max-width: 440px) {
+@media screen and (min-width: 280px) {
   .modal-social {
-    flex-wrap: wrap;
-    flex-direction: column;
+    display: flex;
+    position: relative;
   }
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 280px) {
   .modal-social__item {
     margin-bottom: 10px;
-  }
-  .modal-social__item:after {
-    left: -150px;
   }
 }
 
