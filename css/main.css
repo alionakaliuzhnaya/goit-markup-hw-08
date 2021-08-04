@@ -243,7 +243,7 @@ body {
   }
 }
 
-.close-btn {
+.modal-close-btn {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -257,7 +257,7 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-btn:focus, .close-btn:hover {
+.modal-close-btn:focus, .modal-close-btn:hover {
   fill: var(--accent-color);
 }
 
