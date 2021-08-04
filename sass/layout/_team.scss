@@ -7,8 +7,14 @@
   justify-content: center;
 }
 
-.team__item:not(:last-child) {
-  margin-bottom: 30px;
+.team__item {
+  background-color: var(--basic-color);
+}
+
+@media screen and (min-width: 480px) {
+  .team__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -25,6 +31,9 @@
     margin-top: 30px;
     background-color: var(--basic-color);
     max-width: 354px;
+  }
+  .team__item:not(:last-child) {
+    margin-bottom: 0;
   }
 }
 
@@ -44,9 +53,6 @@
   }
 }
 
-.team__item:not(:last-child) {
-  margin-bottom: 0;
-}
 .staff {
   display: block;
   padding-top: 30px;
